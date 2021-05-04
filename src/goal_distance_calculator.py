@@ -1,3 +1,14 @@
+"""
+goal_distance_calculator.py
+---
+This file contains the GoalDistanceCalculator class, which is used for calculating the distance from a lacrosse goal to Ball-E.
+---
+
+Author: Andrei Biswas (@codeabiswas)
+Date: May 4, 2021
+Last Modified: May 04, 2021
+"""
+
 import math
 
 
@@ -42,8 +53,7 @@ class GoalDistanceCalculator:
 
 
 def main():
-    """Execute checks for above class
-    """
+    """Main prototype/testing area. Code prototyping and checking happens here."""
 
     distance_finder = GoalDistanceCalculator([(0, 0), (0, 1), (1, 0), (1, 1)])
 
@@ -51,4 +61,5 @@ def main():
 
 
 if __name__ == "__main__":
+    # Run the main function
     main()
