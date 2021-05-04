@@ -33,7 +33,6 @@ class VideoView():
     This class gets the video stream from from the camera using OpenCV.
     """
 
-
     def __init__(self):
         """__init__.
 
@@ -248,7 +247,7 @@ class TrainingGoalCalibrationScreen(QWidget):
             elif self.click_counter == 4:
                 self.bottom_left_coord = (x_coord, y_coord)
                 self.selected_points.append(self.bottom_left_coord)
-                # Make appropriate buttons visible, draw the lines given the coordinates to show the bounds, 
+                # Make appropriate buttons visible, draw the lines given the coordinates to show the bounds,
                 # and update the text to guide the user
                 self.reset_button.setVisible(True)
                 self.next_page_button.setVisible(True)
@@ -332,7 +331,6 @@ class FocalLengthFinder:
 
     This class finds the focal length of the camera and can be used to test the accuracy using the get_obj_distance function.
     """
-
 
     def __init__(self, points_drawn):
         """__init__.
