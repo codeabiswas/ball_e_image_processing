@@ -4,6 +4,8 @@ This repository contains all the code and related files pertaining to image-proc
 
 ## Pre-requisites
 * `Python 3.6.9`
+* `NumPy`
+* `OpenCV`
 
 ## Branch Structure
 
@@ -22,6 +24,9 @@ Feature branches are development branches which is always updated with the lates
 
 ### src/
 Contains code, usually `.py` files.
+
+### src/focal\_length\_finder
+Code for finding the focal length of the camera
 
 ## File Structure
 
