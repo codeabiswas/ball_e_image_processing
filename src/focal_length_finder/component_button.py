@@ -83,6 +83,7 @@ class ProfileCreateButton(QPushButton):
 
     This class configures a QPushButton used for Profile Creation
     """
+
     def __init__(self):
         """__init__.
 
@@ -110,6 +111,7 @@ class ProfileDeleteButton(QPushButton):
 
     This class configures a QPushButton used for Profile Deletion
     """
+
     def __init__(self):
         """__init__.
 

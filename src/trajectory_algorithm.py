@@ -27,7 +27,7 @@ class TrajectoryAlgorithm:
 
         # Required distances for yaw (in ft.)
         self.straight_dist_from_center = 2
-        
+
         # NOTE: These constants are subject to change when the motor is tuned and tested with a real lacrosse goal
         self.mid_yaw_const = 0
         self.center_pitch_const = 0
