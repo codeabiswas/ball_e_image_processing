@@ -1,6 +1,6 @@
 # Image Processing for Ball-E
 
-This repository contains all the code and related files pertaining to image-processing related aspects for the Bi-Axials Autonomous Lacrosse Learning Evaluator (Ball-E).
+This repository contains all the code and related files pertaining to image-processing related aspects for the Bi-Axial Autonomous Lacrosse Learning Evaluator (Ball-E).
 
 ## Pre-requisites
 * `Python 3.6.9`
