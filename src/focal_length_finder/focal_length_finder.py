@@ -6,7 +6,7 @@ This file contains the VideoView, TrainingGoalCalibrationScreen, and FocalLength
 
 Author: Andrei Biswas (@codeabiswas)
 Date: May 4, 2021
-Last Modified: May 04, 2021
+Last Modified: May 08, 2021
 """
 
 import math
@@ -81,6 +81,7 @@ class VideoView():
         :param framerate: Framerate (in fps) to display feed
         :param flip_method: Argument for rotation of image capturing and displaying
         """
+
         return (
             "nvarguscamerasrc ! "
             "video/x-raw(memory:NVMM), "
@@ -114,6 +115,7 @@ class TrainingGoalCalibrationScreen(QWidget):
 
         :param parent: Default arg.
         """
+
         super().__init__(parent=parent)
 
         # Set a title for the widget
